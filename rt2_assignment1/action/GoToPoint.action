@@ -1,0 +1,16 @@
+#goal definition
+float32 x
+float32 y
+float32 theta
+---
+#resultdefinition
+float32 x
+float32 y
+float32 theta
+string state
+---
+#feedback
+float32 x
+float32 y
+float32 theta
+string state

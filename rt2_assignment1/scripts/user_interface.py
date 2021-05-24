@@ -13,7 +13,6 @@ def main():
             ui_client("start")
             x = int(input("\nPress 0 to stop the robot "))
         else:
-            print("Please wait, the robot is going to stop when the position will be reached")
             ui_client("stop")
             x = int(input("\nPress 1 to start the robot "))
             
