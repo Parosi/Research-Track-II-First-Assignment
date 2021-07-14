@@ -1,13 +1,3 @@
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-This node implements a state machine ehich permits to control the 
-various states of the robot.
-
-It creates a ros service for receiving the commands from the user.
-It also implements a service client which is used to get a random 
-position and an action client which is used to move the robot.
-'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-
-
 #include "ros/ros.h"
 #include "rt2_assignment1/Command.h"
 #include "rt2_assignment1/RandomPosition.h"
